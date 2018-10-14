@@ -1,10 +1,10 @@
 # Udacity Self-Driving Car Engineer Nanodegree Program
 # *Model Predictive Controller (MPC) Project*
 
-## Intro
-The goal of this project is to drive car around the lake track of a Udacity-provided [simulator](https://github.com/udacity/self-driving-car-sim/releases), which communicates via websocket, by transmitting steering and acceleration commands back to the simulator. The solution should have 100ms latency, similar to real-world conditions.
+## Introduction
+The goal of this project is to a drive car around the lake track of a Udacity-provided [simulator](https://github.com/udacity/self-driving-car-sim/releases). The car communicates via websocket, by transmitting steering and acceleration commands back to the simulator. The solution should have 100ms latency, similar to real-world conditions.
 
-The IPOPT and CPPAD libraries are used to calculate an optimal trajectory and its associated actuation commands in order to minimize error with a third-degree polynomial fit to the given waypoints. The optimization considers waypoints during a short duration of time, and produces a trajectory for that duration based upon a model of the vehicle's kinematics.  The trajectory, and a cost function (based on the vehicle's cross-track error - roughly the distance from the track waypoints) and the orientation angle error, with other cost factors included to improve performance. 
+The **IPOPT** and **CPPAD** libraries are used to calculate an optimal trajectory and its associated actuation commands in order to minimize error with a third-degree polynomial fit to the given waypoints. The optimization considers waypoints during a short duration of time, and produces a trajectory for that duration based upon a model of the vehicle's kinematics.  The trajectory, a cost function (based on the vehicle's cross-track error - roughly the distance from the track waypoints) and the orientation angle error, as well as other cost factors combined to improve performance. 
 
 ## Rubric Points
 
