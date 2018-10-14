@@ -1,7 +1,7 @@
 # Udacity Self-Driving Car Engineer Nanodegree Program
 # *Model Predictive Controller (MPC) Project*
 
-![MPC_Lake_Track](./MPC_Lake_Track.jpg)
+![MPC_Lake_Track](./MPC_LakeTrack.png)
 
 ## Introduction
 The goal of this project is to a drive car around the lake track of a Udacity-provided [simulator](https://github.com/udacity/self-driving-car-sim/releases). The car communicates via websocket, by transmitting steering and acceleration commands back to the simulator. The solution should have 100ms latency, similar to real-world conditions.
