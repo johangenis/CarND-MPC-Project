@@ -28,6 +28,13 @@ The waypoints are preprocessed by transforming them to the vehicle's perspective
 
 Latency was dealt with in a twofold way(disregarding limiting speed): the original kinematic equations depend upon the actuations from the previous timestep, but with a delay of 100ms (equal to the timestep interval) the actuations are applied one timestep later, so the equations adjucted to take this into consideration (MPC.cpp lines 112-115). Also, in addition to the cost functions suggested in the lessons (penalizing CTE, epsi, difference between velocity and a reference velocity, delta, acceleration, change in delta, and change in acceleration) an additional cost penalizing the combination of velocity and delta (MPC.cpp line 69) was introduced, and resulting in more controlled cornering. (Credit to fellow student Jeremy Shannon)
 
+# * Maximum Speed Attempt
+
+Although every attempt was made to tune the model to exceed 100 mph (160 km/h), the maximum speed safely attainded is between 93 and 99 mph.
+
+Below is a video of the simulation:
+
+
 
 ---
 # *Udacity's original README content*
