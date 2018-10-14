@@ -34,7 +34,7 @@ Although every attempt was made to tune the model to exceed 100 mph (160 km/h), 
 
 Below is a video of the simulation:
 
-
+[![Model Predictive Controller MPC Implementation](https://github.com/johangenis/CarND-MPC-Project/blob/master/mpcYouTubeTN.png)](https://youtu.be/_BtOS8-Suzs)
 
 ---
 # *Udacity's original README content*
